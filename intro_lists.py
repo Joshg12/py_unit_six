@@ -1,4 +1,4 @@
-def swap(list_one):
+#def swap(list_one):
     """
     Function that swaps the first and last elements of the list, regardless of length
     :param list_one: a list of at least two elements
