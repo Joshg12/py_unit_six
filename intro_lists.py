@@ -1,4 +1,4 @@
-#def swap(list_one):
+def swap(list_one):
     """
     Function that swaps the first and last elements of the list, regardless of length
     :param list_one: a list of at least two elements
@@ -24,3 +24,13 @@ def max_end(list_one):
     :return: A list where all the elements are the larger of the first or last element of the original list
     """
     pass # make sure to remove this line before beginning work on this function
+
+names = ["Abigail", "Brenda", "Chad", "Doug", "Emma", "Francis", "George", "Harold", "Imogen", "Jackie", "Kurt", "Linda"]
+
+print(names[0:3])
+
+print(names[3:5])
+print(names[1:6])
+print(names[5:12])
+print(names[11])
+print(names[11:0])
