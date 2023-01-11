@@ -23,7 +23,13 @@ def max_end(list_one):
     :param list_one: A list consisting of three elements - all integers
     :return: A list where all the elements are the larger of the first or last element of the original list
     """
-    pass # make sure to remove this line before beginning work on this function
+    if nums[0] > [-1]:
+        list = [nums[0] , nums[0] , nums[0]]
+        return [list]
+
+    if nums[1] < [0]:
+        list = [nums[-1] , nums[-1] , nums[-1]]
+        return [list]
 
 names = ["Abigail", "Brenda", "Chad", "Doug", "Emma", "Francis", "George", "Harold", "Imogen", "Jackie", "Kurt", "Linda"]
 
@@ -34,3 +40,19 @@ print(names[1:6])
 print(names[5:12])
 print(names[11])
 print(names[11:0])
+
+nums = ["12" , "35" , "9" , "56" , "24"]
+print(nums[0:5])
+
+nums[0] = list
+nums[0] = nums[-1]
+nums[-1] = nums[0]
+nums[rotate_left([12, 35, 9]) [9, 12, 35]]
+
+
+
+
+
+
+
+print(nums[0:5])
